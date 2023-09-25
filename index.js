@@ -13,6 +13,18 @@ let n2 = document.getElementById("pessoa2");
      var porcentagem = 666;
     } else if (n1.value.toLowerCase() == "nina" &&n2.value.toLowerCase() == "léo") {
       var porcentagem = 666;
+    } else if (n1.value.toLowerCase() == "leonardo" &&n2.value.toLowerCase() == "anielli") {
+        var porcentagem = 666;
+    } else if (n1.value.toLowerCase() == "anielli" &&n2.value.toLowerCase() == "leoanrdo") {
+        var porcentagem = 666;
+    } else if (n1.value.toLowerCase() == "leonardo" &&n2.value.toLowerCase() == "nina") {
+        var porcentagem = 666;
+    } else if (n1.value.toLowerCase() == "nina" &&n2.value.toLowerCase() == "leonardo") {
+        var porcentagem = 666;
+    } else if (n1.value.toLowerCase() == "anielli" &&n2.value.toLowerCase() == "léo") {
+        var porcentagem = 666;
+    } else if (n1.value.toLowerCase() == "léo" &&n2.value.toLowerCase() == "anielli") {
+        var porcentagem = 666;
     } else if (n1.value.toLowerCase() == 'léo' && n2.value.toLowerCase() != 'nina'){
         var porcentagem = 0
     } else if (n2.value.toLowerCase() == 'léo' && n1.value.toLowerCase() != 'nina'){
