@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mooli', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+main{
+    margin: 30px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border: white 3px solid;
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.644);
+    display: inline-block;
+}
+
+#section{
+    border: white 3px solid;
+    display: flex;
+    align-items: center;
+    width: 450px;
+    justify-content: center;
+    height: 150px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+#section span{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+#section span div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    height: 30px;
+    width: 30px;
+    border: none;
+    background: none;
+}
+
+button img{
+    height: 30px;
+    width: 30px;
+    transition: 300ms;
+}
+
+button img:hover{
+    height: 35px;
+    width: 35px;
+    transform: translate(-2px ,-2px);
+}
+
+#resultado{
+    height: 150px;
+    width: 450px;
+    border: white 3px solid;
+    margin-top: 20px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+#porcento{
+    margin: auto auto;
+}
+
+#barra{
+    width: 200px;
+    height: 20px;
+    margin: auto auto;
+    border: darkgray 3px solid;
+}
+
+#barra-fill{
+    height: 100%;
+    width: 0%;
+    transition: 200ms;
+    background-color: rgb(202, 27, 27);
+}
+
+#reacao{
+    height: 100%;
+    display: none;
+}
+
+#reacao-wrap{
+    height: 100px;
+    width: 100px;
+    margin: auto auto;
+}
+
+
+
